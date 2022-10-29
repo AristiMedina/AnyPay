@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">proyectGrupo9</string>
+    <string name="inicioUsuario">Nombre de usuario</string>
+    <string name="inicioContraseña">Contraseña</string>
+    <string name="inicioIngresar">Ingresar</string>
+    <string name="inicioPregunta">¿Olvidaste tu contraseña?</string>
+    <string name="inicioNuevaCuenta">¿Todavía no tienes una cuenta?</string>
+    <string name="inicioCrearCuenta">Crear cuenta</string>
+
+    <string name="registroTelefono">Telefono</string>
+    <string name="registroCorreo">Correo</string>
+    <string name="registroRegistrar">Registrar</string>
+    <string name="registroPregunta">¿Ya tienes una cuenta?</string>
+    <string name="registroIniciaSesion">Inicia seción</string>
+
+    <string name="menuSaldoDisponible">Saldo disponible</string>
+    <string name="menuSaldoUsuario">SaldoUsuario</string>
+    <string name="menuSaludo">Saludos</string>
+    <string name="menuSaludoUsuario">Usuario</string>
+
+    <string name="messContraseñaIncorrecta">Contraseña o usuario incorrecto</string>
+</resources>
