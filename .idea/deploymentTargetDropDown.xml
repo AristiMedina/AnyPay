@@ -7,12 +7,12 @@
         <deviceKey>
           <Key>
             <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\isabe\.android\avd\Nuevo_dipositivo.avd" />
+            <value value="C:\Users\isabe\.android\avd\Dispositivo_5.1pulg.avd" />
           </Key>
         </deviceKey>
       </Target>
     </targetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2022-10-25T01:22:57.966129800Z" />
+    <timeTargetWasSelectedWithDropDown value="2022-11-03T21:57:17.603279200Z" />
     <targetsSelectedWithDialog>
       <Target>
         <type value="QUICK_BOOT_TARGET" />
