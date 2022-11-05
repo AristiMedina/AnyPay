@@ -13,7 +13,7 @@ class RegisterNewUser : AppCompatActivity() {
     }
 
     fun RegistrarUsuario(view: View) {
-        Toast.makeText(this, resources.getString(R.string.app_name), Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, resources.getString(R.string.messNuevoUsuario), Toast.LENGTH_SHORT).show()
     }
 
     fun Ingresar(view: View) {

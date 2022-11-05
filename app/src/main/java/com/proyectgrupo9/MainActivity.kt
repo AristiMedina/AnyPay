@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         // Verificamos si la informacion es correcta
         if(txtUsuario!!.text.toString() == "Ejemplo"){
             if(txtContraseña!!.text.toString()== "1234"){
-                val intento = Intent(this, activity_start_menu::class.java)
+                val intento = Intent(this, Activity_Menu::class.java)
                 startActivity(intento)
             }else{
                 Toast.makeText(this, resources.getString(R.string.messContraseñaIncorrecta), Toast.LENGTH_SHORT).show()

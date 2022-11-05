@@ -18,5 +18,13 @@
     <string name="menuSaludo">Saludos</string>
     <string name="menuSaludoUsuario">Usuario</string>
 
+    <string name="menuBotonPagos">Pagos</string>
+    <string name="menuBotonResumen">Resumen</string>
+    <string name="menuBotonCuenta">Cuenta</string>
+    <string name="menuBolsillos">Bolsillo</string>
+    <string name="menuTarjeta">Tarjeta</string>
+    <string name="menuTransferencia">Transferencia</string>
+
     <string name="messContraseñaIncorrecta">Contraseña o usuario incorrecto</string>
+    <string name="messNuevoUsuario">Cuenta registrada</string>
 </resources>
