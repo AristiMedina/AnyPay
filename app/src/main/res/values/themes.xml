@@ -16,12 +16,12 @@
 
     <style name="btnFlotante">
         <item name="android:background">@drawable/btn_flotante</item>
-        <item name="android:textColor">@color/white</item>
+        <item name="android:textColor">@color/blackDegradado</item>
     </style>
 
     <style name="btnFlotante600">
         <item name="android:background">@drawable/btn_flotante600</item>
-        <item name="android:textColor">@color/white</item>
+        <item name="android:textColor">@color/blackDegradado</item>
     </style>
 
 

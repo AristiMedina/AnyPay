@@ -7,7 +7,7 @@ import android.view.View
 class Activity_Menu : AppCompatActivity() {
 
     val frag_Cuenta = Fragment_cuenta();
-    val frag_Pagos = Fragment_pagos();
+    val frag_Perfil = Fragment_perfil();
     val frag_Resumen = Fragment_resumen();
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,8 +24,8 @@ class Activity_Menu : AppCompatActivity() {
         if(view.id == R.id.FragCuenta){
             trans.replace(R.id.contenedorMenu, frag_Cuenta)
         }
-        if(view.id == R.id.FragPagos){
-            trans.replace(R.id.contenedorMenu, frag_Pagos)
+        if(view.id == R.id.FragPerfil){
+            trans.replace(R.id.contenedorMenu, frag_Perfil)
         }
         if(view.id == R.id.FragResumen){
             trans.replace(R.id.contenedorMenu, frag_Resumen)

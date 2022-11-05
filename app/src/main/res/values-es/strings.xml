@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">proyectGrupo9</string>
+    <string name="app_name">AnyPay</string>
     <string name="inicioUsuario">Nombre de usuario</string>
     <string name="inicioContraseña">Contraseña</string>
     <string name="inicioIngresar">Ingresar</string>
@@ -18,7 +18,7 @@
     <string name="menuSaludo">Saludos</string>
     <string name="menuSaludoUsuario">Usuario</string>
 
-    <string name="menuBotonPagos">Pagos</string>
+    <string name="menuBotonPerfil">Perfil</string>
     <string name="menuBotonResumen">Resumen</string>
     <string name="menuBotonCuenta">Cuenta</string>
     <string name="menuBolsillos">Bolsillo</string>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_start_menu">
+    tools:context=".Activity_Menu">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -68,25 +68,25 @@
                 android:onClick="unClick"/>
 
             <Button
-                android:id="@+id/FragPagos"
+                android:id="@+id/FragResumen"
                 android:layout_width="89dp"
                 android:layout_height="35dp"
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton_redondeado_blanco"
-                android:text="@string/menuBotonPagos"
+                android:text="@string/menuBotonResumen"
                 android:textSize="12sp"
                 android:onClick="unClick"/>
 
             <Button
-                android:id="@+id/FragResumen"
+                android:id="@+id/FragPerfil"
                 android:layout_width="89dp"
                 android:layout_height="35dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton_redondeado_blanco"
-                android:text="@string/menuBotonResumen"
+                android:text="@string/menuBotonPerfil"
                 android:textSize="12sp"
                 android:onClick="unClick" />
         </LinearLayout>
@@ -114,6 +114,7 @@
                 android:id="@+id/btnBolsillo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                app:fab_colorPressed="@color/purple_500"
                 app:fab_colorNormal="@color/white"
                 app:fab_icon="@drawable/bolsillo_64px"
                 app:fab_size="mini"
@@ -123,6 +124,7 @@
                 android:id="@+id/btnTarjeta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                app:fab_colorPressed="@color/purple_500"
                 app:fab_colorNormal="@color/white"
                 app:fab_icon="@drawable/target_64px"
                 app:fab_size="mini"
@@ -132,6 +134,7 @@
                 android:id="@+id/btnTransferencia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                app:fab_colorPressed="@color/purple_500"
                 app:fab_colorNormal="@color/white"
                 app:fab_icon="@drawable/transfer_64px"
                 app:fab_size="mini"

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">proyectGrupo9</string>
+    <string name="app_name">AnyPay</string>
     <string name="inicioUsuario">Username</string>
     <string name="inicioContraseña">Password</string>
     <string name="inicioIngresar">Login</string>
@@ -18,7 +18,7 @@
     <string name="menuSaludo">Welcome</string>
     <string name="menuSaludoUsuario">User</string>
 
-    <string name="menuBotonPagos">Pages</string>
+    <string name="menuBotonPerfil">Profile</string>
     <string name="menuBotonResumen">Resume</string>
     <string name="menuBotonCuenta">Acount</string>
     <string name="menuBolsillos">Pocket</string>
@@ -27,6 +27,4 @@
 
     <string name="messContraseñaIncorrecta">Incorrect user or password</string>
     <string name="messNuevoUsuario">Registered account</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
