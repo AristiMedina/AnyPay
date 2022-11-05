@@ -20,13 +20,11 @@
 
     <string name="menuBotonPagos">Pages</string>
     <string name="menuBotonResumen">Resume</string>
-    <string name="menuBotonCuenta">Acount</string>
+    <string name="menuBotonCuenta">Account</string>
     <string name="menuBolsillos">Pocket</string>
     <string name="menuTarjeta">Card</string>
     <string name="menuTransferencia">Transfer</string>
 
     <string name="messContraseñaIncorrecta">Incorrect user or password</string>
     <string name="messNuevoUsuario">Registered account</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
