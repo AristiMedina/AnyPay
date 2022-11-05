@@ -27,7 +27,6 @@
         android:id="@+id/contenedorMenu"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="90dp"
         app:layout_constraintBottom_toTopOf="@+id/coordinatorLayout3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,7 +57,7 @@
             app:layout_constraintStart_toStartOf="parent">
 
             <Button
-                android:id="@+id/btnCuenta"
+                android:id="@+id/FragCuenta"
                 android:layout_width="89dp"
                 android:layout_height="35dp"
                 android:layout_marginLeft="10dp"
@@ -69,7 +68,7 @@
                 android:onClick="unClick"/>
 
             <Button
-                android:id="@+id/btnPago"
+                android:id="@+id/FragPagos"
                 android:layout_width="89dp"
                 android:layout_height="35dp"
                 android:layout_marginLeft="10dp"
@@ -80,7 +79,7 @@
                 android:onClick="unClick"/>
 
             <Button
-                android:id="@+id/btnResumen"
+                android:id="@+id/FragResumen"
                 android:layout_width="89dp"
                 android:layout_height="35dp"
                 android:layout_marginLeft="10dp"

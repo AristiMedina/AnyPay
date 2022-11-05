@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/FragCuenta"
+    android:id="@+id/FragResumen"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Fragment_cuenta">
+    android:layout_height="wrap_content"
+    tools:context=".Fragment_resumen">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -19,16 +19,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/menuSaldoDisponible"
+            android:text="Aqui El resumen de transacciones"
             android:layout_marginBottom="25dp"
-            android:textSize="12dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/menuSaldoUsuario"
-            android:layout_marginBottom="40dp"
-            android:textSize="17dp"/>
+            android:textSize="14dp"/>
 
     </LinearLayout>
 
