@@ -41,7 +41,7 @@
             android:layout_gravity="center"/>
 
         <EditText
-            android:id="@+id/txtUsuario"
+            android:id="@+id/txtCorreo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -49,8 +49,8 @@
             android:layout_marginEnd="32dp"
             android:background="@drawable/input"
             android:ems="10"
-            android:hint="@string/inicioUsuario"
-            android:inputType="textPersonName"
+            android:hint="@string/registroCorreo"
+            android:inputType="textEmailAddress"
             android:paddingLeft="20dp"
             android:paddingTop="10dp"
             android:paddingRight="10dp"
@@ -110,8 +110,9 @@
             android:layout_marginTop="35dp"
             android:layout_marginEnd="32dp"
             android:background="@drawable/boton_redondeado"
-            android:onClick="IngresarUsuario"
+
             android:text="@string/inicioIngresar"
+            android:gravity="center"
             android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"

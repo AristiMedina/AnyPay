@@ -21,13 +21,13 @@ class Activity_Menu : AppCompatActivity() {
     fun unClick(view: View) {
         val trans = supportFragmentManager.beginTransaction();
 
-        if(view.id == R.id.FragCuenta){
+        if(view.id == R.id.btnCuenta){
             trans.replace(R.id.contenedorMenu, frag_Cuenta)
         }
-        if(view.id == R.id.FragPerfil){
+        if(view.id == R.id.btnPerfil){
             trans.replace(R.id.contenedorMenu, frag_Perfil)
         }
-        if(view.id == R.id.FragResumen){
+        if(view.id == R.id.btnResumen){
             trans.replace(R.id.contenedorMenu, frag_Resumen)
         }
 

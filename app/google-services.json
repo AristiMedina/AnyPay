@@ -1,0 +1,39 @@
+ {
+  "project_info": {
+    "project_number": "572091201734",
+    "project_id": "anypay-55adc",
+    "storage_bucket": "anypay-55adc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572091201734:android:373265134c1ea9a5fcbfc7",
+        "android_client_info": {
+          "package_name": "com.proyectgrupo9"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572091201734-r9v4f1o87v8i3oe26np231vrp8j0ov6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7OhrzleQYHdgd1CnPnVMq7CZYLPtvth4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572091201734-r9v4f1o87v8i3oe26np231vrp8j0ov6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

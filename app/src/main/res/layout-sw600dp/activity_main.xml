@@ -34,7 +34,7 @@
 
     <EditText
         android:textColor="@color/white"
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/txtTelefono"
         android:layout_width="match_parent"
         android:layout_height="95dp"
         android:layout_marginStart="62dp"
@@ -71,7 +71,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/txtTelefono"
         android:background="@drawable/input_600"
         android:paddingLeft="35dp"
         android:paddingRight="10dp"

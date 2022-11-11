@@ -1,14 +1,16 @@
 <resources>
     <string name="app_name">AnyPay</string>
-    <string name="inicioUsuario">Nombre de usuario</string>
+    <string name="inicioUsuario">Numero de celular</string>
     <string name="inicioContraseña">Contraseña</string>
     <string name="inicioIngresar">Ingresar</string>
     <string name="inicioPregunta">¿Olvidaste tu contraseña?</string>
     <string name="inicioNuevaCuenta">¿Todavía no tienes una cuenta?</string>
     <string name="inicioCrearCuenta">Crear cuenta</string>
+    <string name="inicioVerificacion"> Verificación </string>
 
-    <string name="registroTelefono">Telefono</string>
-    <string name="registroCorreo">Correo</string>
+    <string name="registroNombre">Nombre</string>
+    <string name="registroCorreo">Usuario o correo</string>
+    <string name="registroSoloCorreo">Correo</string>
     <string name="registroRegistrar">Registrar</string>
     <string name="registroPregunta">¿Ya tienes una cuenta?</string>
     <string name="registroIniciaSesion">Inicia seción</string>
@@ -27,4 +29,5 @@
 
     <string name="messContraseñaIncorrecta">Contraseña o usuario incorrecto</string>
     <string name="messNuevoUsuario">Cuenta registrada</string>
+    <string name="messVacio">Ingrese sus datos</string>
 </resources>

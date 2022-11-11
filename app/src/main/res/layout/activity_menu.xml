@@ -57,7 +57,7 @@
             app:layout_constraintStart_toStartOf="parent">
 
             <Button
-                android:id="@+id/FragCuenta"
+                android:id="@+id/btnCuenta"
                 android:layout_width="89dp"
                 android:layout_height="35dp"
                 android:layout_marginLeft="10dp"
@@ -68,7 +68,7 @@
                 android:onClick="unClick"/>
 
             <Button
-                android:id="@+id/FragResumen"
+                android:id="@+id/btnResumen"
                 android:layout_width="89dp"
                 android:layout_height="35dp"
                 android:layout_marginLeft="10dp"
@@ -79,7 +79,7 @@
                 android:onClick="unClick"/>
 
             <Button
-                android:id="@+id/FragPerfil"
+                android:id="@+id/btnPerfil"
                 android:layout_width="89dp"
                 android:layout_height="35dp"
                 android:layout_marginLeft="10dp"
