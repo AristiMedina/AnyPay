@@ -2,7 +2,6 @@ package com.proyectgrupo9
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 
 class activity_start_menu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

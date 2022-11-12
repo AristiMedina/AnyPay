@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1023347312147",
+    "firebase_url": "https://prueba-b5760-default-rtdb.firebaseio.com",
+    "project_id": "prueba-b5760",
+    "storage_bucket": "prueba-b5760.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023347312147:android:2bbf3eaf3ce477bf82a1e6",
+        "android_client_info": {
+          "package_name": "com.misiontic.anypay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023347312147-1tn3u8v84r19ei0ihkgaqms9jsalj7fc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP6cEFqOISTb2NY8G6L_dkdwEQomhvYRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023347312147-1tn3u8v84r19ei0ihkgaqms9jsalj7fc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023347312147:android:2e122ac53bb749ac82a1e6",
+        "android_client_info": {
+          "package_name": "com.proyectgrupo9"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023347312147-1tn3u8v84r19ei0ihkgaqms9jsalj7fc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP6cEFqOISTb2NY8G6L_dkdwEQomhvYRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023347312147-1tn3u8v84r19ei0ihkgaqms9jsalj7fc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
