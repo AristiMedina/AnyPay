@@ -88,17 +88,17 @@
             app:layout_constraintStart_toStartOf="parent">
 
             <Button
-                android:id="@+id/btnPago"
+                android:id="@+id/FragCuenta"
                 android:layout_width="89dp"
                 android:layout_height="35dp"
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton_redondeado_blanco"
-                android:text="@string/menuBotonPagos"
+                android:text="@string/menuBotonCuenta"
                 android:textSize="12sp" />
 
             <Button
-                android:id="@+id/btnResumen"
+                android:id="@+id/FragResumen"
                 android:layout_width="89dp"
                 android:layout_height="35dp"
                 android:layout_marginLeft="10dp"
@@ -108,14 +108,14 @@
                 android:textSize="12sp" />
 
             <Button
-                android:id="@+id/btnCuenta"
+                android:id="@+id/FragPerfil"
                 android:layout_width="89dp"
                 android:layout_height="35dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton_redondeado_blanco"
-                android:text="@string/menuBotonCuenta"
+                android:text="@string/menuBotonPerfil"
                 android:textSize="12sp" />
         </LinearLayout>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>

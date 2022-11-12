@@ -1,14 +1,16 @@
 <resources>
-    <string name="app_name">proyectGrupo9</string>
-    <string name="inicioUsuario">Nombre de usuario</string>
+    <string name="app_name">AnyPay</string>
+    <string name="inicioUsuario">Numero de celular</string>
     <string name="inicioContraseña">Contraseña</string>
     <string name="inicioIngresar">Ingresar</string>
     <string name="inicioPregunta">¿Olvidaste tu contraseña?</string>
     <string name="inicioNuevaCuenta">¿Todavía no tienes una cuenta?</string>
     <string name="inicioCrearCuenta">Crear cuenta</string>
+    <string name="inicioVerificacion"> Verificación </string>
 
-    <string name="registroTelefono">Telefono</string>
-    <string name="registroCorreo">Correo</string>
+    <string name="registroNombre">Nombre</string>
+    <string name="registroCorreo">Usuario o correo</string>
+    <string name="registroSoloCorreo">Correo</string>
     <string name="registroRegistrar">Registrar</string>
     <string name="registroPregunta">¿Ya tienes una cuenta?</string>
     <string name="registroIniciaSesion">Inicia seción</string>
@@ -18,13 +20,27 @@
     <string name="menuSaludo">Saludos</string>
     <string name="menuSaludoUsuario">Usuario</string>
 
-    <string name="menuBotonPagos">Pagos</string>
+    <string name="menuBotonPerfil">Perfil</string>
     <string name="menuBotonResumen">Resumen</string>
     <string name="menuBotonCuenta">Cuenta</string>
     <string name="menuBolsillos">Bolsillo</string>
     <string name="menuTarjeta">Tarjeta</string>
     <string name="menuTransferencia">Transferencia</string>
+    <string name="account_balance">Saldo</string>
+    <string name="account_balance_value">$99,00</string>
+    <string name="background">background</string>
+    <string name="login_logo">logo</string>
 
     <string name="messContraseñaIncorrecta">Contraseña o usuario incorrecto</string>
     <string name="messNuevoUsuario">Cuenta registrada</string>
+    <string name="messVacio">Ingrese todos sus datos</string>
+
+    <string name="datosNombre">Nombre: </string>
+    <string name="datosCorreo">Correo: </string>
+    <string name="datosTelefono">Telefono: </string>
+    <string name="datosContraseña">Cotraseña: </string>
+    <string name="datosEditar">Editar</string>
+    <string name="datosEliminar">Eliminar cuenta</string>
+    <string name="datosCerrar">Cerrar sesión</string>
+    <string name="ItemHomeTitle">Inicio</string>
 </resources>

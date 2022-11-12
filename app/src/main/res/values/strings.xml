@@ -1,14 +1,16 @@
 <resources>
-    <string name="app_name">proyectGrupo9</string>
-    <string name="inicioUsuario">Username</string>
+    <string name="app_name">AnyPay</string>
+    <string name="inicioUsuario">Cell phone number</string>
     <string name="inicioContraseña">Password</string>
     <string name="inicioIngresar">Login</string>
     <string name="inicioPregunta">¿Forgot your password?</string>
     <string name="inicioNuevaCuenta">¿Don´t have an account yet?</string>
     <string name="inicioCrearCuenta">Create account</string>
+    <string name="inicioVerificacion"> Verify </string>
 
-    <string name="registroTelefono">Phone</string>
-    <string name="registroCorreo">e-maill</string>
+    <string name="registroNombre">Name</string>
+    <string name="registroCorreo">e-maill or user</string>
+    <string name="registroSoloCorreo">e - maill</string>
     <string name="registroRegistrar">Register</string>
     <string name="registroPregunta">¿Already have an account?</string>
     <string name="registroIniciaSesion">Login</string>
@@ -18,7 +20,7 @@
     <string name="menuSaludo">Welcome</string>
     <string name="menuSaludoUsuario">User</string>
 
-    <string name="menuBotonPagos">Payments</string>
+    <string name="menuBotonPerfil">Profile</string>
     <string name="menuBotonResumen">Resume</string>
     <string name="menuBotonCuenta">Account</string>
     <string name="menuBolsillos">Pocket</string>
@@ -31,4 +33,14 @@
     <string name="account_balance_value">$99,00</string>
     <string name="background">background</string>
     <string name="login_logo">logo</string>
+    <string name="messVacio">Enter all your data</string>
+
+    <string name="datosNombre">Name: </string>
+    <string name="datosCorreo">E-mail: </string>
+    <string name="datosTelefono">Phone: </string>
+    <string name="datosContraseña">Password: </string>
+    <string name="datosEditar">Edit</string>
+    <string name="datosEliminar">Delete account</string>
+    <string name="datosCerrar">log out</string>
+    <string name="ItemHomeTitle">Home</string>
 </resources>

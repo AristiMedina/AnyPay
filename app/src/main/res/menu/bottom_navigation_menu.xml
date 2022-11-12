@@ -2,21 +2,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/account_item"
+        android:id="@+id/home_item"
         android:enabled="true"
-        android:title="@string/menuBotonCuenta"
-        android:icon="@drawable/account_icon"/>
-
-    <item
-        android:id="@+id/payments_item"
-        android:enabled="true"
-        android:title="@string/menuBotonPagos"
-        android:icon="@drawable/pagos_icon"/>
+        android:title="@string/ItemHomeTitle"
+        android:icon="@drawable/hogar"/>
 
     <item
         android:id="@+id/resume_item"
         android:enabled="true"
         android:title="@string/menuBotonResumen"
-        android:icon="@drawable/resume_icon"/>
+        android:icon="@drawable/resumen"/>
 
+    <item
+        android:id="@+id/account_item"
+        android:enabled="true"
+        android:title="@string/menuBotonCuenta"
+        android:icon="@drawable/account_icon"/>
 </menu>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_start_menu">
+    tools:context=".Activity_Menu">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -22,65 +22,6 @@
         android:id="@+id/contenedorMenu"
         app:layout_constraintBottom_toBottomOf="parent" >
     </FrameLayout>
-
-    <!--<androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:id="@+id/coordinatorLayout3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <LinearLayout
-            android:id="@+id/linearLayout4"
-            android:layout_width="320dp"
-            android:layout_height="55dp"
-            android:background="@drawable/boton_redondeado"
-            android:gravity="center"
-            android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
-
-            <Button
-                android:id="@+id/FragCuenta"
-                android:layout_width="90dp"
-                android:layout_height="45dp"
-                android:layout_marginLeft="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/boton_redondeado_blanco"
-                android:onClick="unClick"
-                android:text="@string/menuBotonCuenta"
-                android:textSize="12sp" />
-
-            <Button
-                android:id="@+id/FragPagos"
-                android:layout_width="90dp"
-                android:layout_height="45dp"
-                android:layout_marginLeft="10dp"
-                android:layout_weight="1"
-                android:background="@android:color/transparent"
-                android:onClick="unClick"
-                android:text="@string/menuBotonPagos"
-                android:textColor="@color/white"
-                android:textSize="12sp" />
-
-            <Button
-                android:id="@+id/FragResumen"
-                android:layout_width="90dp"
-                android:layout_height="45dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_weight="1"
-                android:background="@android:color/transparent"
-                android:onClick="unClick"
-                android:text="@string/menuBotonResumen"
-                android:textColor="@color/white"
-                android:textSize="12sp" />
-        </LinearLayout>
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>-->
-
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="wrap_content"
@@ -104,6 +45,7 @@
                 android:id="@+id/btnBolsillo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                app:fab_colorPressed="@color/purple_500"
                 app:fab_colorNormal="@color/white"
                 app:fab_icon="@drawable/bolsillo_64px"
                 app:fab_size="mini"
@@ -113,6 +55,7 @@
                 android:id="@+id/btnTarjeta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                app:fab_colorPressed="@color/purple_500"
                 app:fab_colorNormal="@color/white"
                 app:fab_icon="@drawable/target_64px"
                 app:fab_size="mini"
@@ -122,6 +65,7 @@
                 android:id="@+id/btnTransferencia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                app:fab_colorPressed="@color/purple_500"
                 app:fab_colorNormal="@color/white"
                 app:fab_icon="@drawable/transfer_64px"
                 app:fab_size="mini"
