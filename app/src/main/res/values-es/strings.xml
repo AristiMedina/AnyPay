@@ -29,5 +29,13 @@
 
     <string name="messContraseñaIncorrecta">Contraseña o usuario incorrecto</string>
     <string name="messNuevoUsuario">Cuenta registrada</string>
-    <string name="messVacio">Ingrese sus datos</string>
+    <string name="messVacio">Ingrese todos sus datos</string>
+
+    <string name="datosNombre">Nombre: </string>
+    <string name="datosCorreo">Correo: </string>
+    <string name="datosTelefono">Telefono: </string>
+    <string name="datosContraseña">Cotraseña: </string>
+    <string name="datosEditar">Editar</string>
+    <string name="datosEliminar">Eliminar cuenta</string>
+    <string name="datosCerrar">Cerrar sesión</string>
 </resources>

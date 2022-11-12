@@ -30,4 +30,12 @@
     <string name="messContraseñaIncorrecta">Incorrect user or password</string>
     <string name="messNuevoUsuario">Registered account</string>
     <string name="messVacio">Enter all your data</string>
+
+    <string name="datosNombre">Name: </string>
+    <string name="datosCorreo">E-mail: </string>
+    <string name="datosTelefono">Phone: </string>
+    <string name="datosContraseña">Password: </string>
+    <string name="datosEditar">Edit</string>
+    <string name="datosEliminar">Delete account</string>
+    <string name="datosCerrar">log out</string>
 </resources>
