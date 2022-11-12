@@ -37,7 +37,7 @@ class MainActivity: AppCompatActivity() {
                 FirebaseAuth.getInstance().signInWithEmailAndPassword(txtCorreo!!.text.toString(), txtContraseña!!.text.toString()).addOnCompleteListener {
                     if(it.isSuccessful){
                         val intent = Intent(this, Activity_Menu::class.java).apply {
-                            putExtra("email", txtCorreo!!.text.toString())
+                            putExtra("email", txtCorreo?.text.toString())
                         }
                         startActivity(intent)
                     }else{Mensaje()}

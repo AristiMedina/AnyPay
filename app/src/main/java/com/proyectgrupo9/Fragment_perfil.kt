@@ -43,15 +43,11 @@ class Fragment_perfil : Fragment() {
        val rootView:View = inflater.inflate(R.layout.fragment_perfil, container, false)
 
         val dataBundle = arguments
-        val mail = dataBundle?.getString("correo")
+        var mail = dataBundle?.get("correo")
 
-        val correo = rootView.findViewById<TextView>(R.id.datCorreo)
-        correo?.text = "Email aqui: " + mail
-
-        val titulo = rootView.findViewById<TextView>(R.id.titulo)
-        titulo?.text = "Aqui el titulo: "+mail
-
-        Toast.makeText(context, mail, Toast.LENGTH_SHORT).show()
+        var titulo = rootView.findViewById<TextView>(R.id.titulo)
+        titulo?.text = "Aqui el titulo: "+ mail
+        Toast.makeText(context, mail.toString(), Toast.LENGTH_SHORT).show()
 
 
         val btnSalir = rootView.findViewById<Button>(R.id.btnSalir)

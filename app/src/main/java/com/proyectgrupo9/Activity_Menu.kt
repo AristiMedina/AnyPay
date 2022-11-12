@@ -8,7 +8,10 @@ import android.widget.Toast
 import com.google.firebase.firestore.FirebaseFirestore
 
 class Activity_Menu : AppCompatActivity() {
-    var email:String ?= null
+
+    private val db = FirebaseFirestore.getInstance()
+
+    val email:String ?= null
 
     var btnPerfil:Button ?= null
 
@@ -20,7 +23,7 @@ class Activity_Menu : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
-        email = intent.getStringExtra("email")
+        val email = intent.getStringExtra("email")
         supportFragmentManager.beginTransaction().add(R.id.contenedorMenu, frag_Cuenta).commit()
 
     }
@@ -32,6 +35,7 @@ class Activity_Menu : AppCompatActivity() {
             trans.replace(R.id.contenedorMenu, frag_Cuenta)
         }
         if(view.id == R.id.btnPerfil){
+            //Toast.makeText(this, email, Toast.LENGTH_SHORT).show()
 
             val manager = supportFragmentManager
             val transaction = manager.beginTransaction()
