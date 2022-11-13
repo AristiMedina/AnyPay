@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_item"
+        android:enabled="true"
+        android:title="@string/ItemHomeTitle"
+        android:icon="@drawable/hogar"/>
+
+    <item
+        android:id="@+id/resume_item"
+        android:enabled="true"
+        android:title="@string/menuBotonResumen"
+        android:icon="@drawable/resumen"/>
+
+    <item
+        android:id="@+id/account_item"
+        android:enabled="true"
+        android:title="@string/menuBotonCuenta"
+        android:icon="@drawable/account_icon"/>
+</menu>

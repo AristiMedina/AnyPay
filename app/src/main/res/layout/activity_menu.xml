@@ -11,92 +11,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/fondo2" />
+        android:src="@drawable/home_background"
+        android:contentDescription="@string/background" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#B2000000"
-        android:gravity="center"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-114dp" >
-    </LinearLayout>
 
     <FrameLayout
-        android:id="@+id/contenedorMenu"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintBottom_toTopOf="@+id/coordinatorLayout3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
+        android:layout_marginBottom="84dp"
+        android:id="@+id/contenedorMenu"
+        app:layout_constraintBottom_toBottomOf="parent" >
     </FrameLayout>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:id="@+id/coordinatorLayout3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <LinearLayout
-            android:id="@+id/linearLayout4"
-            android:layout_width="329dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="35dp"
-            android:background="@drawable/boton_redondeado"
-            android:gravity="center"
-            android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
-
-            <Button
-                android:id="@+id/btnCuenta"
-                android:layout_width="89dp"
-                android:layout_height="35dp"
-                android:layout_marginLeft="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/boton_redondeado_blanco"
-                android:text="@string/menuBotonCuenta"
-                android:textSize="12sp"
-                android:onClick="unClick"/>
-
-            <Button
-                android:id="@+id/btnResumen"
-                android:layout_width="89dp"
-                android:layout_height="35dp"
-                android:layout_marginLeft="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/boton_redondeado_blanco"
-                android:text="@string/menuBotonResumen"
-                android:textSize="12sp"
-                android:onClick="unClick"/>
-
-            <Button
-                android:id="@+id/btnPerfil"
-                android:layout_width="89dp"
-                android:layout_height="35dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/boton_redondeado_blanco"
-                android:text="@string/menuBotonPerfil"
-                android:textSize="12sp"
-                android:onClick="unClick" />
-        </LinearLayout>
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
-
-
-    <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/coordinatorLayout3"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/nav_bottom"
         app:layout_constraintEnd_toEndOf="parent">
 
         <com.getbase.floatingactionbutton.FloatingActionsMenu
@@ -104,11 +35,11 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="25dp"
             android:layout_marginBottom="10dp"
+            app:fab_addButtonColorNormal="@color/purple_200"
             app:fab_expandDirection="up"
             app:fab_labelStyle="@style/btnFlotante"
             app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:fab_addButtonColorNormal="@color/teal_200">
+            app:layout_constraintEnd_toEndOf="parent">
 
             <com.getbase.floatingactionbutton.FloatingActionButton
                 android:id="@+id/btnBolsillo"
@@ -139,7 +70,17 @@
                 app:fab_icon="@drawable/transfer_64px"
                 app:fab_size="mini"
                 app:fab_title="@string/menuTransferencia" />
+
         </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nav_bottom"
+        app:menu="@menu/bottom_navigation_menu"
+        android:background="@color/purple_200"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

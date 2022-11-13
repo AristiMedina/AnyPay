@@ -43,7 +43,12 @@ class Fragment_perfil : Fragment() {
        val rootView:View = inflater.inflate(R.layout.fragment_perfil, container, false)
 
         val dataBundle = arguments
-        var mail = dataBundle?.get("correo")
+        val mail = dataBundle?.getString("correo")
+        val nombre = dataBundle?.getString("nombre")
+        val telefono = dataBundle?.getString("telefono")
+        val contraseña = dataBundle?.getString("contraseña")
+
+
 
         var titulo = rootView.findViewById<TextView>(R.id.titulo)
         titulo?.text = "Aqui el titulo: "+ mail

@@ -26,6 +26,10 @@
     <string name="menuBolsillos">Bolsillo</string>
     <string name="menuTarjeta">Tarjeta</string>
     <string name="menuTransferencia">Transferencia</string>
+    <string name="account_balance">Saldo</string>
+    <string name="account_balance_value">$99,00</string>
+    <string name="background">background</string>
+    <string name="login_logo">logo</string>
 
     <string name="messContraseñaIncorrecta">Contraseña o usuario incorrecto</string>
     <string name="messNuevoUsuario">Cuenta registrada</string>
@@ -38,4 +42,9 @@
     <string name="datosEditar">Editar</string>
     <string name="datosEliminar">Eliminar cuenta</string>
     <string name="datosCerrar">Cerrar sesión</string>
+    <string name="ItemHomeTitle">Inicio</string>
+
+    <string name="mensajeContraseña">La contraseña debe tener por lo menos 6 dígitos</string>
+    <string name="mensajeConeccion">Se ha producido un error al registrar usuario</string>
+    <string name="mensajeCuenta">Cuenta existente</string>
 </resources>

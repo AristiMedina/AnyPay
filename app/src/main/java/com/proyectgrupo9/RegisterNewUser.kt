@@ -6,12 +6,14 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
+import org.w3c.dom.Text
 import java.security.Provider
 
 class RegisterNewUser : AppCompatActivity() {
@@ -48,17 +50,41 @@ class RegisterNewUser : AppCompatActivity() {
 
                 FirebaseAuth.getInstance().createUserWithEmailAndPassword(txtMail?.text.toString(), txtContraseña?.text.toString()).addOnCompleteListener {
                     if(it.isSuccessful){
-
+                        // Guardamos los datos en Firestore
                         Save(txtMail?.text.toString(), txtUsuario?.text.toString(), txtTelefono?.text.toString(), txtContraseña?.text.toString())
 
-                        datosPerfil(txtMail?.text.toString(), txtUsuario?.text.toString(), txtTelefono?.text.toString(),txtContraseña?.text.toString())
+                        //datosPerfil(txtMail?.text.toString(), txtUsuario?.text.toString(), txtTelefono?.text.toString(),txtContraseña?.text.toString())
                         txtTelefono!!.setText("")
                         txtUsuario!!.setText("")
                         txtContraseña!!.setText("")
                         txtMail!!.setText("")
                         Toast.makeText(this, resources.getString(R.string.messNuevoUsuario), Toast.LENGTH_SHORT).show()
 
-                    }else{Mensaje()}
+                    }else{
+                        if(txtContraseña!!.length() < 6){
+                            Mensaje(resources.getString(R.string.mensajeContraseña))
+                        }else{
+                            try {
+                                // Ver si el correo existe en Firestore
+                                db.collection("Usuarios").document(txtMail?.text.toString()).get()
+                                    .addOnSuccessListener {
+                                        val correo: String = it.get("Correo") as String
+                                        //Toast.makeText(this, correo.toString(), Toast.LENGTH_SHORT).show()
+
+                                        if (txtMail?.text.toString() == correo) {
+                                            Toast.makeText(
+                                                this,
+                                                resources.getString(R.string.mensajeCuenta),
+                                                Toast.LENGTH_SHORT
+                                            ).show()
+                                        }
+                                    }
+                            }finally {
+                                Mensaje(resources.getString(R.string.mensajeConeccion))
+
+                            }
+                        }
+                    }
                 }
 
             }else{
@@ -68,17 +94,14 @@ class RegisterNewUser : AppCompatActivity() {
 
     }
 
-    // El provider debe estar en la actividad donde se muestran los datos del usuario
-    // private fun DatosUsuario(mail: String, provider:ProviderType){  }
-
     fun Ingresar(view: View) {
         finish();
     }
 
-    private fun Mensaje(){
+    private fun Mensaje(men:String){
         val mess = AlertDialog.Builder(this)
         mess.setTitle("¡¡¡ Error !!!")
-        mess.setMessage("Se ha producido un error al registrar usuario")
+        mess.setMessage(men)
         mess.setPositiveButton("Aceptar", null)
         val dialog:AlertDialog = mess.create()
         dialog.show()
@@ -96,7 +119,7 @@ class RegisterNewUser : AppCompatActivity() {
 
     fun Save(email:String, nombre: String, telefono:String, contraseña:String){
         db.collection("Usuarios").document(email).set(hashMapOf(
-                "Nombre: " to nombre, "Correo: " to email, "Teléfono: " to telefono, "Contraseña: " to contraseña
+                "Nombre" to nombre, "Correo" to email, "Teléfono" to telefono, "Contraseña" to contraseña
             )
         )
     }

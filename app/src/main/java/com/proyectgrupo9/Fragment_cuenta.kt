@@ -5,6 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.TextView
+import android.widget.Toast
+
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
@@ -31,7 +35,36 @@ class Fragment_cuenta : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_cuenta, container, false)
+        val rootView:View = inflater.inflate(R.layout.fragment_cuenta, container, false)
+
+        val dataBundle = arguments
+        val mail = dataBundle?.getString("correo")
+        val nombre = dataBundle?.getString("nombre")
+        val telefono = dataBundle?.getString("telefono")
+        val contraseña = dataBundle?.getString("contraseña")
+
+        var txtnombre = rootView.findViewById<TextView>(R.id.datNombre)
+        var txtcorreo = rootView.findViewById<TextView>(R.id.datCorreo)
+        var txtelefono = rootView.findViewById<TextView>(R.id.datTelefono)
+        var txtcontraseña = rootView.findViewById<TextView>(R.id.datContraseña)
+
+        txtnombre.text = nombre
+        txtcorreo.text = mail
+        txtelefono.text = telefono
+        txtcontraseña.text = contraseña
+
+
+        val btnSalir = rootView.findViewById<Button>(R.id.btnSalir)
+        btnSalir.setOnClickListener{
+            Toast.makeText(context, "SALIR", Toast.LENGTH_LONG).show()
+        }
+
+        val btnEliminar = rootView.findViewById<Button>(R.id.btnEliminar)
+        btnEliminar.setOnClickListener {
+            //Mensaje de eliminar
+        }
+
+        return rootView
     }
 
     companion object {

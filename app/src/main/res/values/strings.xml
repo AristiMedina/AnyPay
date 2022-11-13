@@ -22,13 +22,17 @@
 
     <string name="menuBotonPerfil">Profile</string>
     <string name="menuBotonResumen">Resume</string>
-    <string name="menuBotonCuenta">Acount</string>
+    <string name="menuBotonCuenta">Account</string>
     <string name="menuBolsillos">Pocket</string>
     <string name="menuTarjeta">Card</string>
     <string name="menuTransferencia">Transfer</string>
 
     <string name="messContraseñaIncorrecta">Incorrect user or password</string>
     <string name="messNuevoUsuario">Registered account</string>
+    <string name="account_balance">Saldo</string>
+    <string name="account_balance_value">$99,00</string>
+    <string name="background">background</string>
+    <string name="login_logo">logo</string>
     <string name="messVacio">Enter all your data</string>
 
     <string name="datosNombre">Name: </string>
@@ -38,4 +42,9 @@
     <string name="datosEditar">Edit</string>
     <string name="datosEliminar">Delete account</string>
     <string name="datosCerrar">log out</string>
+    <string name="ItemHomeTitle">Home</string>
+
+    <string name="mensajeContraseña">Password must be at least 6 digits long</string>
+    <string name="mensajeConeccion">An error occurred while registering user</string>
+    <string name="mensajeCuenta">Existing account</string>
 </resources>
